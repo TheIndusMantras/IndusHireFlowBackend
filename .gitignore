@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/IndusHireFlow/.vs
+/IndusHireFlow/IndusHireFlow/bin/Debug/net10.0
+/IndusHireFlow/IndusHireFlow/obj/Debug/net10.0
