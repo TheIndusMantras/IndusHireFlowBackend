@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "C6qqsk36EFg=",
+  "success": true,
+  "projectFilePath": "C:\\TheIndusMantras\\IndusHireFlowBackend\\IndusHireFlow\\IndusHireFlow\\IndusHireFlow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}

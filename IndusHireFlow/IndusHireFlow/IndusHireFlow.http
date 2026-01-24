@@ -1,0 +1,6 @@
+@IndusHireFlow_HostAddress = http://localhost:5254
+
+GET {{IndusHireFlow_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
