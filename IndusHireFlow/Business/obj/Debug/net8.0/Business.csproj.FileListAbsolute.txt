@@ -10,3 +10,4 @@ C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\
 C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\refint\Business.dll
 C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.pdb
 C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\ref\Business.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
