@@ -1,0 +1,12 @@
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.sourcelink.json
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\bin\Debug\net8.0\Business.deps.json
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\bin\Debug\net8.0\Business.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\bin\Debug\net8.0\Business.pdb
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\refint\Business.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\Business.pdb
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Business\obj\Debug\net8.0\ref\Business.dll

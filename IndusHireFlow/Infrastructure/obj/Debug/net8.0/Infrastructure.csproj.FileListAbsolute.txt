@@ -1,0 +1,12 @@
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\TheIndusMantras\IndusHireFlowBackend\IndusHireFlow\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

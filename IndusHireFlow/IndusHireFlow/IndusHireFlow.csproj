@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="NewFolder\" />
+	  <ProjectReference Include="..\Business\Business.csproj" />
 	</ItemGroup>
 
 </Project>
