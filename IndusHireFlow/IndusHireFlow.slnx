@@ -1,6 +1,4 @@
 <Solution>
   <Project Path="Business/Business.csproj" Id="1b340bd5-f628-4fc5-8025-8fed2105f212" />
-  <Project Path="Domain/Domain.csproj" Id="a5fffe10-6d23-4c1a-832e-40329788997c" />
   <Project Path="IndusHireFlow/IndusHireFlow.csproj" />
-  <Project Path="Infrastructure/Infrastructure.csproj" Id="64d4dff9-2ed7-4f61-9fc6-449367c419b4" />
 </Solution>

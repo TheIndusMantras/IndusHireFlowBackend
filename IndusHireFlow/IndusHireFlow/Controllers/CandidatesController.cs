@@ -1,73 +1,62 @@
-﻿using Business.DTOs;
-using IndusHireFlow.staticData;
+﻿using System;
+using System.Threading.Tasks;
+using Business.DTOs;
+using Business.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IndusHireFlow.Controllers
 {
+    [ApiController]
     [Route("api/candidates")]
     public class CandidatesController : BaseController
     {
+        private readonly ICandidateService _candidateService;
+
+        public CandidatesController(ICandidateService candidateService)
+        {
+            _candidateService = candidateService ?? throw new ArgumentNullException(nameof(candidateService));
+        }
+
         // GET: api/candidates
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10, [FromQuery] string search = null, [FromQuery] string skill = null, [FromQuery] string location = null)
         {
-            return Ok(CandidateStaticStore.Candidates);
+            var result = await _candidateService.GetCandidatesAsync(pageNumber, pageSize, search, skill, location);
+            return Ok(result);
         }
 
         // GET: api/candidates/{id}
         [HttpGet("{id}")]
-        public IActionResult GetById(Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
-            var candidate = CandidateStaticStore.Candidates
-                .FirstOrDefault(c => c.Id == id);
-
-            if (candidate == null)
-                return NotFound("Candidate not found");
-
+            var candidate = await _candidateService.GetCandidateByIdAsync(id);
+            if (candidate == null) return NotFound("Candidate not found");
             return Ok(candidate);
         }
 
         // POST: api/candidates
         [HttpPost]
-        public IActionResult Create([FromBody] CandidateDTO candidate)
+        public async Task<IActionResult> Create([FromBody] CreateCandidateDTO candidate)
         {
-            candidate.Id = Guid.NewGuid();
-            CandidateStaticStore.Candidates.Add(candidate);
-            return CreatedAtAction(nameof(GetById), new { id = candidate.Id }, candidate);
+            var created = await _candidateService.CreateCandidateAsync(candidate);
+            return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 
         // PUT: api/candidates/{id}
         [HttpPut("{id}")]
-        public IActionResult Update(Guid id, [FromBody] CandidateDTO updated)
+        public async Task<IActionResult> Update(Guid id, [FromBody] UpdateCandidateDTO updated)
         {
-            var candidate = CandidateStaticStore.Candidates
-                .FirstOrDefault(c => c.Id == id);
-
-            if (candidate == null)
-                return NotFound("Candidate not found");
-
-            candidate.FirstName = updated.FirstName;
-            candidate.LastName = updated.LastName;
-            candidate.Email = updated.Email;
-            candidate.PhoneNumber = updated.PhoneNumber;
-            candidate.Location = updated.Location;
-            candidate.Experience = updated.Experience;
-            candidate.Skills = updated.Skills;
-
+            var candidate = await _candidateService.UpdateCandidateAsync(id, updated);
+            if (candidate == null) return NotFound("Candidate not found");
             return Ok(candidate);
         }
 
         // DELETE: api/candidates/{id}
         [HttpDelete("{id}")]
-        public IActionResult Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var candidate = CandidateStaticStore.Candidates
-                .FirstOrDefault(c => c.Id == id);
-
-            if (candidate == null)
-                return NotFound("Candidate not found");
-
-            CandidateStaticStore.Candidates.Remove(candidate);
+            var deleted = await _candidateService.DeleteCandidateAsync(id);
+            if (!deleted) return NotFound("Candidate not found");
             return NoContent();
         }
     }

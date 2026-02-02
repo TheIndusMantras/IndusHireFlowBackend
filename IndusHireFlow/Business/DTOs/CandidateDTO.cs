@@ -28,6 +28,7 @@ namespace Business.DTOs
         public string Source { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public List<string> CompanyId { get; set; } = [];
     }
 
     /// <summary>

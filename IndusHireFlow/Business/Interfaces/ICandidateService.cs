@@ -11,7 +11,7 @@ namespace Business.Interfaces
         /// <summary>
         /// Interface for candidate management service
         /// </summary>
-        Task<PaginatedResponse<CandidateDTO>> GetCandidatesAsync(int pageNumber, int pageSize, string search, string skill, string location);
+        Task<PaginatedResponse<CandidateDTO>> GetCandidatesAsync(int pageNumber, int pageSize, string search, string skill, string location, Guid? companyId = null);
         Task<CandidateDTO> GetCandidateByIdAsync(Guid id);
         Task<CandidateDTO> GetCandidateByEmailAsync(string email);
         Task<CandidateDTO> CreateCandidateAsync(CreateCandidateDTO dto);

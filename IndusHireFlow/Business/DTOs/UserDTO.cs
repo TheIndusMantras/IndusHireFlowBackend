@@ -22,7 +22,9 @@ namespace Business.DTOs
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-    }
+        public List<string> CompanyId { get; set; } = [];
+        public string PasswordHash {get; set; }
+}
 
     /// <summary>
     /// Create User DTO
